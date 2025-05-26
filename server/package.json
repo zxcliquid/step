@@ -5,7 +5,9 @@
     "mongodb": "^6.15.0",
     "mongoose": "^8.13.2",
     "socket-io": "^1.0.0",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "node-cron": "^4.0.7"
+    
   },
   "name": "server",
   "version": "1.0.0",
