@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
     origin: [
-      "https://watch-frontend-liard.vercel.app",
+      "https://step-education-beta.vercel.app",
       "http://localhost:5173"
     ],
     methods: ["GET", "POST"]
