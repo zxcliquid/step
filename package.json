@@ -1,1 +1,52 @@
-
+{
+  "name": "diplomcollege",
+  "version": "1.0.0",
+  "main": "server/server.js",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node server/server.js",  
+    "dev": "vite --host",  
+    "build": "vite build",  
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run start-server\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "socket.io": "^4.8.1",
+    "node-cron": "^4.0.7",
+    "node-cron": "^4.0.3",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.4.1",
+    "react-youtube": "^10.1.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "vite": "^6.1.0",
+    "concurrently": "^7.0.0" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxcliquid/stepedu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxcliquid/stepedu/issues"
+  },
+  "homepage": "https://github.com/zxcliquid/stepedu#readme",
+  "description": "Project combining client and server"
+}
